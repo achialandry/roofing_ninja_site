@@ -1,0 +1,224 @@
+/*body*/
+body
+{
+    background: #e5efff!important;
+    position: relative!important;
+}
+
+/*background image landing page*/
+div#landing-page {
+            background: url("../img-assets/landing-page.jpeg")no-repeat center center;
+            opacity: 0.75;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 100%;
+            background-position: center;
+        }
+div.black-text{
+    color: #333b49;
+}
+
+a#read-more-btn{
+    opacity: 0.85;
+}
+
+a#btn-more-info{
+    opacity: 0.1;
+}
+
+div.right-hand-line{
+    border-right: 2px;
+    color: #fff;
+}
+
+div.info-bg{
+    opacity: 0.8;
+}
+
+/*carousel on project page*/
+
+div#residential-roofing-specialist {
+            background: url("../img-assets/residential_roofing_background.jpg")no-repeat center center;
+            opacity: 1;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            word-wrap: break-word;
+        }
+
+div#projects-page {
+                    background: url("../img-assets/syn_back.jpg")no-repeat center center;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    word-wrap: break-word;
+                }
+
+div#contact-page {
+                    background: url("../img-assets/Contact_page_background.jpg")no-repeat center center;
+                    opacity: 0.75;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
+
+div#about-page {
+                    background: url("../img-assets/about-page.jpg")no-repeat center center;
+                    opacity: 0.75;
+                    background-color: red;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
+div.bg-slight-dark{
+    background-color: #3b3d3f;
+}
+
+p.review-text{
+    font-size: 0.75rem!important;
+}
+
+div#footer-page {
+                    background: url("../img-assets/footer_contact_page.jpg")no-repeat center center;
+                    opacity: 0.75;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    max-height: 100vh;
+                }
+hr#short-hr{
+    background-color: #eee;
+    color: #fff;
+    height: 3px;
+}
+
+hr.others{
+    background-color: #000;
+    color: #000;
+    height: 3px;
+}
+
+/*Navigation Menu hover animations*/
+
+   .links {
+     transition: 0.3s ease;
+     font-weight: bold;
+     text-decoration: none;
+   }
+   .links:hover {
+     border-top: 1px solid #ffffff;
+     border-bottom: 1px solid #ffffff;
+     background-color: #1c2331!important;
+
+   }
+/* section.overf
+{
+    overflow: auto;
+} */
+
+.transparent {
+    background:rgba(128,128,128,0.5)no-repeat center center !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+
+.active {
+    font-weight: 600;
+    color: #fff;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    background-color: #1c2331!important;
+}
+
+
+/*Taylor Services After Landing page*/
+section.bg-primary
+{
+    background:#0e1623!important;
+}
+
+
+/*carousel*/
+#myCarousel
+{
+    background-color: #00235b!important;
+}
+
+#carouselFooter
+{
+    background-color: #00235b!important;
+}
+
+
+i.fa
+{
+    color: #000;
+}
+
+i.fa-map-marker, i.fa-phone, i.fa-envelope
+{
+    color: #5a5a5a;
+}
+
+section.fadeIn-Services{
+    opacity: 0;
+}
+
+
+/*Projects*/
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+
+/*About CSS*/
+section#about
+{
+    background: url("../img-assets/rooing-Inspection-min.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 100vh;
+}
+
+section#contact
+{
+    background: url("../img-assets/building-envelop-John-Taylor.jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(36,56,89,0.8);
+    min-height: 100vh;
+}
+
+  h2.text-dark
+  {
+      color: #fff!important;
+      opacity: 1;
+  }
+
+  div.contact
+  {
+      background: #4b4c4c;
+      opacity: 0.7
+  }
+
+
+/*Footer background*/
+footer
+{
+    width: 100%;
+    background-color: #00235b!important;
+}
