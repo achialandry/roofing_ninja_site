@@ -17,19 +17,19 @@
         </div>
         <div class="container mb-5">
             <div class="row mb-5 text-center">
-                <div class="col-md-2 text-center offset-md-1">
+                <div class="col-md-2 col-sm-2 text-center offset-md-1">
                     <img :src="'img-assets/certainteed.png'" alt="Ninja Roofing Logo" class="img-fluid mt-3">
                 </div>
-                <div class="col-md-2 text-center">
+                <div class="col-md-2 col-sm-2 text-center">
                     <img :src="'img-assets/gaf.png'" alt="Ninja Roofing Logo" class="img-fluid mt-3">
                 </div>
-                <div class="col-md-2 text-center">
+                <div class="col-md-2 col-sm-2 text-center">
                     <img :src="'img-assets/timberline.png'" alt="Ninja Roofing Logo" class="img-fluid">
                 </div>
-                <div class="col-md-2 text-center">
+                <div class="col-md-2 col-sm-2 text-center">
                     <img :src="'img-assets/malarkey.png'" alt="Ninja Roofing Logo" class="img-fluid mt-3">
                 </div>
-                <div class="col-md-2 text-center">
+                <div class="col-md-2 col-sm-2 text-center">
                     <img :src="'img-assets/iko.png'" alt="Ninja Roofing Logo" class="img-fluid mt-3">
                 </div>
             </div>

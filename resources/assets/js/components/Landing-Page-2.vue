@@ -3,7 +3,7 @@
     <div class="container-fluid" id="residential-roofing-specialist">
         <div class="container"><br><br>
             <div class="row mt-0">
-                <div class="col-md-12 text-center  mb-3">
+                <div class="col-md-12 col-sm-12 text-center  mb-3">
                     <h1 class="h1-responsive text-danger font-weight-bold">RESIDENTIAL ROOFING SPECIALIST</h1>
                 </div>
             </div>
@@ -15,17 +15,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row mb-5">
-                        <div class="col-md-4 text-center border-right border-light">
+                        <div class="col-md-4 text-center border-right border-light mb-2">
                             <h1 class="h1-responsive text-danger font-weight-bold mb-4">WORKMANSHIP</h1>
                             <h5 class="mb-4 font-weight-bold text-white">Complete Roofing Specialist</h5>
                             <a href="#" class="text-white">MORE INFO <i class="fas fa-angle-double-right text-white ml-2"></i></a>
                         </div>
-                        <div class="col-md-4 text-center border-right border-light">
+                        <div class="col-md-4 text-center border-right border-light mb-2">
                             <h1 class="h1-responsive text-danger font-weight-bold mb-4">WARRANTY</h1>
                             <h5 class="mb-4 font-weight-bold text-white">LIFETIME & WORRY FREE</h5>
                             <a href="#" class="text-white">MORE INFO <i class="fas fa-angle-double-right text-white ml-2"></i></a>
                         </div>
-                        <div class="col-md-4 text-center">
+                        <div class="col-md-4 text-center mb-2">
                             <h1 class="h1-responsive text-danger font-weight-bold mb-4">CUSTOMER CARE</h1>
                             <h5 class="mb-4 font-weight-bold text-white">Mindful of the owners needs and finances</h5>
                         </div>

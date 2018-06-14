@@ -47404,24 +47404,28 @@ var render = function() {
       _vm._v(" "),
       _c("div", { staticClass: "container mb-5" }, [
         _c("div", { staticClass: "row mb-5 text-center" }, [
-          _c("div", { staticClass: "col-md-2 text-center offset-md-1" }, [
-            _c("img", {
-              staticClass: "img-fluid mt-3",
-              attrs: {
-                src: "img-assets/certainteed.png",
-                alt: "Ninja Roofing Logo"
-              }
-            })
-          ]),
+          _c(
+            "div",
+            { staticClass: "col-md-2 col-sm-2 text-center offset-md-1" },
+            [
+              _c("img", {
+                staticClass: "img-fluid mt-3",
+                attrs: {
+                  src: "img-assets/certainteed.png",
+                  alt: "Ninja Roofing Logo"
+                }
+              })
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-2 text-center" }, [
+          _c("div", { staticClass: "col-md-2 col-sm-2 text-center" }, [
             _c("img", {
               staticClass: "img-fluid mt-3",
               attrs: { src: "img-assets/gaf.png", alt: "Ninja Roofing Logo" }
             })
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-2 text-center" }, [
+          _c("div", { staticClass: "col-md-2 col-sm-2 text-center" }, [
             _c("img", {
               staticClass: "img-fluid",
               attrs: {
@@ -47431,7 +47435,7 @@ var render = function() {
             })
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-2 text-center" }, [
+          _c("div", { staticClass: "col-md-2 col-sm-2 text-center" }, [
             _c("img", {
               staticClass: "img-fluid mt-3",
               attrs: {
@@ -47441,7 +47445,7 @@ var render = function() {
             })
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-2 text-center" }, [
+          _c("div", { staticClass: "col-md-2 col-sm-2 text-center" }, [
             _c("img", {
               staticClass: "img-fluid mt-3",
               attrs: { src: "img-assets/iko.png", alt: "Ninja Roofing Logo" }
@@ -47768,13 +47772,17 @@ var staticRenderFns = [
           _c("br"),
           _vm._v(" "),
           _c("div", { staticClass: "row mt-0" }, [
-            _c("div", { staticClass: "col-md-12 text-center  mb-3" }, [
-              _c(
-                "h1",
-                { staticClass: "h1-responsive text-danger font-weight-bold" },
-                [_vm._v("RESIDENTIAL ROOFING SPECIALIST")]
-              )
-            ])
+            _c(
+              "div",
+              { staticClass: "col-md-12 col-sm-12 text-center  mb-3" },
+              [
+                _c(
+                  "h1",
+                  { staticClass: "h1-responsive text-danger font-weight-bold" },
+                  [_vm._v("RESIDENTIAL ROOFING SPECIALIST")]
+                )
+              ]
+            )
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "row mb-3" }, [
@@ -47798,7 +47806,7 @@ var staticRenderFns = [
                   "div",
                   {
                     staticClass:
-                      "col-md-4 text-center border-right border-light"
+                      "col-md-4 text-center border-right border-light mb-2"
                   },
                   [
                     _c(
@@ -47834,7 +47842,7 @@ var staticRenderFns = [
                   "div",
                   {
                     staticClass:
-                      "col-md-4 text-center border-right border-light"
+                      "col-md-4 text-center border-right border-light mb-2"
                   },
                   [
                     _c(
@@ -47866,7 +47874,7 @@ var staticRenderFns = [
                   ]
                 ),
                 _vm._v(" "),
-                _c("div", { staticClass: "col-md-4 text-center" }, [
+                _c("div", { staticClass: "col-md-4 text-center mb-2" }, [
                   _c(
                     "h1",
                     {
