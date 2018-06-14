@@ -1,6 +1,6 @@
 <template>
     <!-- Residential roofing specialist -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-white">
         <div class="container"><br><br>
             <div class="row mt-0">
                 <div class="col-md-12 text-center  mb-3">

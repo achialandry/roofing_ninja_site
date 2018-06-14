@@ -47473,7 +47473,7 @@ var staticRenderFns = [
         _c("br"),
         _vm._v(" "),
         _c("h2", { staticClass: "h2-responsive white-text" }, [
-          _vm._v("RESIDENTIAL ROOFING SINCE 1991")
+          _vm._v("RESIDENTIAL ROOFING SINCE 2009")
         ])
       ])
     ])
@@ -48100,7 +48100,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container-fluid" }, [
+  return _c("div", { staticClass: "container-fluid bg-white" }, [
     _c("div", { staticClass: "container" }, [
       _c("br"),
       _c("br"),

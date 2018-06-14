@@ -48,7 +48,7 @@ Envelope Consulting Services in B.C, Vancouver. Proudly Serving Metro Vancouver,
   <body data-spy="scroll" data-target=".navbar">
     <header>
         <!--Navbar justified centered links full width-->
-      <nav  class="navbar navbar-expand-md navbar-light fixed-top  bg-light " id="my-nav-links">
+      <nav  class="navbar navbar-expand-md navbar-light fixed-top  bg-white " id="my-nav-links">
           <div class="container">
               <a href="#" class="navbar-brand mb-0"><img class="img-fluid" src="{{asset('img-assets/logo_sm.png') }}" alt="Ninja Roofing Logo"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
