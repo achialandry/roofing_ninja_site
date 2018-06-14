@@ -102,7 +102,7 @@
                         </div>
                         <div class="col-md-4 text-center">
                             <div class="card mb-2 bg-elegant" >
-                              <img :src="'img-assets/built-in-gutters.jpg'" alt="Built in Gutters Image" class="img-fluid ">
+                              <img :src="'img-assets/built-in_gutters.jpg'" alt="Built in Gutters Image" class="img-fluid ">
                               <div class="card-body">
                                 <h5 class="card-title text-white">BUILT-IN-GUTTERS</h5>
                                 <div class="row">

@@ -48189,7 +48189,7 @@ var render = function() {
                 _c("img", {
                   staticClass: "img-fluid ",
                   attrs: {
-                    src: "img-assets/built-in-gutters.jpg",
+                    src: "img-assets/built-in_gutters.jpg",
                     alt: "Built in Gutters Image"
                   }
                 }),
