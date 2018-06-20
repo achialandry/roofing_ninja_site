@@ -88,12 +88,13 @@ Envelope Consulting Services in B.C, Vancouver. Proudly Serving Metro Vancouver,
     <main role="main">
         <!--Main vue components go here -->
         <div class="mt-1" id="ninja-roofing">
-            <Landing-page></landing-page>
+            <ninja-page></ninja-page>
+            <!-- <Landing-page></landing-page>
             <Landing-page-2></Landing-page-2>
             <landing-page-3></landing-page-3>
             <landing-page-4></landing-page-4>
             <landing-page-5></landing-page-5>
-            <footer-layout></footer-layout>
+            <footer-layout></footer-layout> -->
         </div>
     </main><!-- End Main Div-->
 

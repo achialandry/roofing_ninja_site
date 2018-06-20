@@ -20,6 +20,17 @@ div.black-text{
     color: #333b49;
 }
 
+div#residential-page{
+    background: url("../img-assets/components_detailed.jpg")no-repeat center center;
+    opacity: 0.75;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
 a#read-more-btn{
     opacity: 0.85;
 }
@@ -48,6 +59,25 @@ div#residential-roofing-specialist {
             background-size: cover;
             word-wrap: break-word;
         }
+div#asphalt-shingles{
+    background: url("../img-assets/ashphalt_gallery.jpg")no-repeat center center;
+    opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    word-wrap: break-word;
+}
+
+div#cedar-shingles{
+    background: url("../img-assets/cedar_strip.jpg")no-repeat center center;
+    opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    word-wrap: break-word;
+}
 
 div#projects-page {
                     background: url("../img-assets/syn_back.jpg")no-repeat center center;
@@ -93,10 +123,16 @@ div#footer-page {
                     background-size: cover;
                     max-height: 100vh;
                 }
+
 hr#short-hr{
     background-color: #eee;
     color: #fff;
     height: 3px;
+}
+hr#residential-hr{
+    background-color: #dc3545;
+    color: #dc3545;
+    height: 1px;
 }
 
 hr.others{
@@ -110,12 +146,17 @@ hr.others{
    .links {
      transition: 0.3s ease;
      font-weight: bold;
+
      text-decoration: none;
    }
    .links:hover {
      color: #fff!important;
      border-top: 1px solid #af0011;
      border-bottom: 1px solid #af0011;
+     padding-left: 0.25rem!important;
+     padding-right: 0.25rem!important;
+     margin-left: 3px;
+     margin-right: 3px;
      background-color: #1c2331!important;
 
    }
@@ -136,10 +177,14 @@ hr.others{
 
 
 
-.active {
+nav a.router-link-exact-active {
     font-weight: 600;
-    color: #fff;
+    color: #fff!important;
     border-top: 2px solid #ffffff;
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
+    margin-left: 0px;
+    margin-right: 0px;
     border-bottom: 2px solid #ffffff;
     background-color: #1c2331!important;
 }
