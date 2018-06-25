@@ -1,8 +1,11 @@
 <template lang="html">
     <div class="bg-white"><br><br><br><br>
-        <div class="container-fluid mt-5" id="residential-page"><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container-fluid mt-5 " id="residential-page"><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
         </div><!--end top image residential-->
+        <!-- <div class="container-fluid mt-5 d-md-none d-lg-none d-sm-block mx-auto text-center">
+            <img :src="'img-assets/components_detailed.jpg'" alt="Ninja Roofing Inspection Image" class="img-fluid mb-0 mt-0 pt-0 pb-0 pr-0 pl-0 mr-0 ml-0 ">
+        </div> -->
         <div class="container bg-white"><br><br>
             <div class="row mt-0">
                 <div class="col-md-12 col-sm-12 text-center  mb-1">
