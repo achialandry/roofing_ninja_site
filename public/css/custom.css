@@ -62,6 +62,35 @@ hr#re-roofing-hr{
 
 /*End reroofing page css */
 
+/*Repair and maintenance page css*/
+div#repairs-maintenance-top-one{
+    background: url("../img-assets/repair-maintenance-top-re.jpg")no-repeat center center;
+    opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+div#repairs-maintenance-top-two{
+    background: url("../img-assets/repair-maintenance-top-two-re.jpg")no-repeat center center;
+    opacity: 0.85;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+hr#repairs-maintenance-hr{
+    background-color: #dc3545;
+    color: #dc3545;
+    height: 1px;
+}
+
 a#read-more-btn{
     opacity: 0.85;
 }

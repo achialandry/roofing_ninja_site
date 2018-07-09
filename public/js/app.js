@@ -823,6 +823,100 @@ module.exports = g;
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = __webpack_require__(57)
+/* template */
+var __vue_template__ = __webpack_require__(58)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\Landing-Page-Base.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-cd61879c", Component.options)
+  } else {
+    hotAPI.reload("data-v-cd61879c", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = __webpack_require__(59)
+/* template */
+var __vue_template__ = __webpack_require__(60)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\Footer.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-0ae3fb5c", Component.options)
+  } else {
+    hotAPI.reload("data-v-0ae3fb5c", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
@@ -922,100 +1016,6 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 module.exports = defaults;
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = __webpack_require__(57)
-/* template */
-var __vue_template__ = __webpack_require__(58)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources\\assets\\js\\components\\Landing-Page-Base.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-cd61879c", Component.options)
-  } else {
-    hotAPI.reload("data-v-cd61879c", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = __webpack_require__(59)
-/* template */
-var __vue_template__ = __webpack_require__(60)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources\\assets\\js\\components\\Footer.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0ae3fb5c", Component.options)
-  } else {
-    hotAPI.reload("data-v-0ae3fb5c", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
 
 /***/ }),
 /* 8 */
@@ -38206,7 +38206,7 @@ module.exports = __webpack_require__(24);
 var utils = __webpack_require__(1);
 var bind = __webpack_require__(11);
 var Axios = __webpack_require__(26);
-var defaults = __webpack_require__(5);
+var defaults = __webpack_require__(7);
 
 /**
  * Create an instance of Axios
@@ -38289,7 +38289,7 @@ function isSlowBuffer (obj) {
 "use strict";
 
 
-var defaults = __webpack_require__(5);
+var defaults = __webpack_require__(7);
 var utils = __webpack_require__(1);
 var InterceptorManager = __webpack_require__(35);
 var dispatchRequest = __webpack_require__(36);
@@ -38828,7 +38828,7 @@ module.exports = InterceptorManager;
 var utils = __webpack_require__(1);
 var transformData = __webpack_require__(37);
 var isCancel = __webpack_require__(15);
-var defaults = __webpack_require__(5);
+var defaults = __webpack_require__(7);
 var isAbsoluteURL = __webpack_require__(38);
 var combineURLs = __webpack_require__(39);
 
@@ -50408,9 +50408,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Landing_Page_three_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__Landing_Page_three_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Landing_Page_About_vue__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Landing_Page_About_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Landing_Page_About_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Landing_Page_Base_vue__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Landing_Page_Base_vue__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Landing_Page_Base_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__Landing_Page_Base_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Footer_vue__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Footer_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__Footer_vue__);
 //
 //
@@ -52053,9 +52053,9 @@ module.exports = function listToStyles (parentId, list) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__);
 //
 //
@@ -52418,9 +52418,9 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__);
 //
 //
@@ -53015,7 +53015,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -53026,6 +53026,134 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -53033,7 +53161,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-/* harmony default export */ __webpack_exports__["default"] = ({});
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    components: {
+        'before-footer-layout': __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue___default.a,
+        'footer-layout': __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default.a
+    }
+
+});
 
 /***/ }),
 /* 77 */
@@ -53043,9 +53179,325 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", {}, [_vm._v("\n    repairs\n")])
+  return _c(
+    "div",
+    { staticClass: "bg-white" },
+    [
+      _c("br"),
+      _c("br"),
+      _c("br"),
+      _c("br"),
+      _c("br"),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("div", { staticClass: "container bg-white" }, [
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "row mb-4 mt-5" }, [
+          _c(
+            "div",
+            { staticClass: "col-md-12 col-sm-12 text-center mx-auto" },
+            [
+              _c("img", {
+                staticClass: "img-fluid ",
+                attrs: {
+                  src: "img-assets/repairs-maintenance-third.jpg",
+                  alt: "Ninja Roofing Car Image"
+                }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-12 col-sm-12" }, [
+            _c("div", { staticClass: "row mb-0 pb-0" }, [
+              _c(
+                "div",
+                { staticClass: "col-md-12 col-sm-12 text-center mx-auto" },
+                [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-2" }, [
+                      _c("img", {
+                        staticClass: "img-fluid ",
+                        attrs: {
+                          src: "img-assets/gallery-repair-maintenance-one.jpg",
+                          alt: "Ninja Roofing Repair maintenance gallery"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-2" }, [
+                      _c("img", {
+                        staticClass: "img-fluid ",
+                        attrs: {
+                          src: "img-assets/gallery-repair-maintenance-two.jpg",
+                          alt: "Ninja Roofing Repair maintenance gallery"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-2" }, [
+                      _c("img", {
+                        staticClass: "img-fluid ",
+                        attrs: {
+                          src:
+                            "img-assets/gallery-repair-maintenance-three.jpg",
+                          alt: "Ninja Roofing Repair maintenance gallery"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-2" }, [
+                      _c("img", {
+                        staticClass: "img-fluid ",
+                        attrs: {
+                          src: "img-assets/gallery-repair-maintenance-four.jpg",
+                          alt: "Ninja Roofing Repair maintenance gallery"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-2" }, [
+                      _c("img", {
+                        staticClass: "img-fluid ",
+                        attrs: {
+                          src: "img-assets/gallery-repair-maintenance-five.jpg",
+                          alt: "Ninja Roofing Repair maintenance gallery"
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-2" }, [
+                      _c("img", {
+                        staticClass: "img-fluid ",
+                        attrs: {
+                          src: "img-assets/gallery-repair-maintenance-one.jpg",
+                          alt: "Ninja Roofing Repair maintenance gallery"
+                        }
+                      })
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("before-footer-layout"),
+      _vm._v(" "),
+      _c("footer-layout")
+    ],
+    1
+  )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "container-fluid",
+        attrs: { id: "repairs-maintenance-top-one" }
+      },
+      [
+        _c("br"),
+        _c("br"),
+        _c("br"),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12 text-center" }, [
+              _c(
+                "h2",
+                { staticClass: "h2-responsive text-danger font-weight-bold" },
+                [_vm._v("REPAIRS & MAINTENANCE")]
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-md-8 offset-md-2 text-center text-white" },
+              [
+                _c("p", [
+                  _vm._v(
+                    "Maintenance can reduce repair costs significantly, and extend the lifespan of your roof."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Your roof like a protective shield, is exposed daily to rain, sun, temperature changes, and other elements which breakdown the roof membrane. With regular maintenance, checkups and repairs as needed, common roofing issues can be avoided. This includes gutter cleaning, moss and algae removal, which cause degradation to the roof structure. Repairing leaks, broken or missing shingles will preserve the life of your roof and also reduce maintenance costs and increase peace of mind. Ninja Roofing will give your roof the proper care it needs, to avoid even premature leaks and aging. Professional roof inspection and maintenance should be done annually, in some cases semi-annually, or for emergency repairs.  Call Ninja Roofing for all your flooring needs."
+                  )
+                ])
+              ]
+            )
+          ])
+        ]),
+        _c("br")
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "container-fluid",
+        attrs: { id: "repairs-maintenance-top-two" }
+      },
+      [
+        _c("br"),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-md-12 mr-5 pr-5 pl-5 ml-5 text-center font-weight-bold"
+              },
+              [
+                _c("p", { staticClass: "text-white" }, [
+                  _vm._v(
+                    "Many of the most common roofing issues can be avoided with consistent checkups and maintenance. Stopping leaks and repairing broken or missing shingles can preserve the life of your roof, which can help reduce the need for a full-on roof replacement. If you properly care for your roof, your maintenance costs will be reduced dramatically throughout the years. A complete inspection of your roof, along with a clear diagnosis of any problems and how to fix them, can give you peace of mind. At Mountain West Roofing, we believe that prevention is the best cure. Don’t allow a small problem to become a larger one due to negligence. Being proactive can extend the lifespan of your roofing structure for many years."
+                  )
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row mb-1 mt-5" }, [
+            _c("div", { staticClass: "col-md-4 text-white mb-5" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center" }, [
+                  _c("h6", { staticClass: "h6-responsive font-weight-bold" }, [
+                    _vm._v("GUTTER CLEANING")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center mb-1" }, [
+                  _c("hr", {
+                    attrs: { width: "20%", id: "repairs-maintenance-hr" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-8 offset-md-2 text-center" }, [
+                  _c("p", [
+                    _vm._v(
+                      "Gutters can easily be clogged with leaves and debris, which can cause roof leaks due to build up and other avoidable problems."
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center" }, [
+                  _c("a", { staticClass: "text-white", attrs: { href: "#" } }, [
+                    _vm._v("READ MORE "),
+                    _c("i", {
+                      staticClass: "fas fa-angle-double-right text-white ml-2"
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 text-white mb-5" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center" }, [
+                  _c("h6", { staticClass: "h6-responsive font-weight-bold" }, [
+                    _vm._v("MOSS / ALGAE REMOVAL")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center mb-1" }, [
+                  _c("hr", {
+                    attrs: { width: "20%", id: "repairs-maintenance-hr" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-8 offset-md-2 text-center" }, [
+                  _c("p", [
+                    _vm._v(
+                      "Soot from your chimney and other elements can create unwanted problems, like moss and algae which leads to roof degradation."
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-8 offset-md-2 text-center" }, [
+                  _c("a", { staticClass: "text-white", attrs: { href: "#" } }, [
+                    _vm._v("READ MORE "),
+                    _c("i", {
+                      staticClass: "fas fa-angle-double-right text-white ml-2"
+                    })
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 text-white mb-5" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center" }, [
+                  _c("h6", { staticClass: "h6-responsive font-weight-bold" }, [
+                    _vm._v("EMERGENCY REPAIRS")
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center mb-1" }, [
+                  _c("hr", {
+                    attrs: { width: "20%", id: "repairs-maintenance-hr" }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-8 offset-md-2 text-center" }, [
+                  _c("p", [
+                    _vm._v(
+                      "Wind storms, felled trees and other unexpected emergencies may occur. In any event contact Ninja-Roofing for inspection and repairs."
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-md-12 text-center" }, [
+                  _c("a", { staticClass: "text-white", attrs: { href: "#" } }, [
+                    _vm._v("READ MORE "),
+                    _c("i", {
+                      staticClass: "fas fa-angle-double-right text-white ml-2"
+                    })
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
