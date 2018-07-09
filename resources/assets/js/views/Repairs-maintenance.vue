@@ -16,7 +16,10 @@
         <div class="container-fluid" id="repairs-maintenance-top-two"><br><br>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 mr-5 pr-5 pl-5 ml-5 text-center font-weight-bold">
+                    <div class="col-md-12 d-md-block d-none mr-5 pr-5 pl-5 ml-5 text-center font-weight-bold">
+                        <p class="text-white">Many of the most common roofing issues can be avoided with consistent checkups and maintenance. Stopping leaks and repairing broken or missing shingles can preserve the life of your roof, which can help reduce the need for a full-on roof replacement. If you properly care for your roof, your maintenance costs will be reduced dramatically throughout the years. A complete inspection of your roof, along with a clear diagnosis of any problems and how to fix them, can give you peace of mind. At Mountain West Roofing, we believe that prevention is the best cure. Don’t allow a small problem to become a larger one due to negligence. Being proactive can extend the lifespan of your roofing structure for many years.</p>
+                    </div>
+                    <div class="col-sm-12 d-md-none d-sm-block text-center">
                         <p class="text-white">Many of the most common roofing issues can be avoided with consistent checkups and maintenance. Stopping leaks and repairing broken or missing shingles can preserve the life of your roof, which can help reduce the need for a full-on roof replacement. If you properly care for your roof, your maintenance costs will be reduced dramatically throughout the years. A complete inspection of your roof, along with a clear diagnosis of any problems and how to fix them, can give you peace of mind. At Mountain West Roofing, we believe that prevention is the best cure. Don’t allow a small problem to become a larger one due to negligence. Being proactive can extend the lifespan of your roofing structure for many years.</p>
                     </div>
                 </div>
@@ -99,22 +102,22 @@
               <div class="row mb-0 pb-0">
                   <div class="col-md-12 col-sm-12 text-center mx-auto">
                       <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-6 mb-2">
                           <img :src="'img-assets/gallery-repair-maintenance-one.jpg'" alt="Ninja Roofing Repair maintenance gallery" class="img-fluid ">
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-6 mb-2">
                           <img :src="'img-assets/gallery-repair-maintenance-two.jpg'" alt="Ninja Roofing Repair maintenance gallery" class="img-fluid ">
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-6 mb-2">
                             <img :src="'img-assets/gallery-repair-maintenance-three.jpg'" alt="Ninja Roofing Repair maintenance gallery" class="img-fluid ">
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-6 mb-2">
                             <img :src="'img-assets/gallery-repair-maintenance-four.jpg'" alt="Ninja Roofing Repair maintenance gallery" class="img-fluid ">
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-6 mb-2">
                             <img :src="'img-assets/gallery-repair-maintenance-five.jpg'" alt="Ninja Roofing Repair maintenance gallery" class="img-fluid ">
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-6 mb-2">
                           <img :src="'img-assets/gallery-repair-maintenance-one.jpg'" alt="Ninja Roofing Repair maintenance gallery" class="img-fluid ">
                         </div>
                       </div>

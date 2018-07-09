@@ -53015,7 +53015,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -53030,6 +53030,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Landing_Page_Base_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Footer_vue__);
+//
+//
+//
 //
 //
 //
@@ -53218,7 +53221,7 @@ var render = function() {
                 { staticClass: "col-md-12 col-sm-12 text-center mx-auto" },
                 [
                   _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-2" }, [
+                    _c("div", { staticClass: "col-md-2 col-sm-6 mb-2" }, [
                       _c("img", {
                         staticClass: "img-fluid ",
                         attrs: {
@@ -53228,7 +53231,7 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-2" }, [
+                    _c("div", { staticClass: "col-md-2 col-sm-6 mb-2" }, [
                       _c("img", {
                         staticClass: "img-fluid ",
                         attrs: {
@@ -53238,7 +53241,7 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-2" }, [
+                    _c("div", { staticClass: "col-md-2 col-sm-6 mb-2" }, [
                       _c("img", {
                         staticClass: "img-fluid ",
                         attrs: {
@@ -53249,7 +53252,7 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-2" }, [
+                    _c("div", { staticClass: "col-md-2 col-sm-6 mb-2" }, [
                       _c("img", {
                         staticClass: "img-fluid ",
                         attrs: {
@@ -53259,7 +53262,7 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-2" }, [
+                    _c("div", { staticClass: "col-md-2 col-sm-6 mb-2" }, [
                       _c("img", {
                         staticClass: "img-fluid ",
                         attrs: {
@@ -53269,7 +53272,7 @@ var render = function() {
                       })
                     ]),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-md-2" }, [
+                    _c("div", { staticClass: "col-md-2 col-sm-6 mb-2" }, [
                       _c("img", {
                         staticClass: "img-fluid ",
                         attrs: {
@@ -53363,8 +53366,20 @@ var staticRenderFns = [
               "div",
               {
                 staticClass:
-                  "col-md-12 mr-5 pr-5 pl-5 ml-5 text-center font-weight-bold"
+                  "col-md-12 d-md-block d-none mr-5 pr-5 pl-5 ml-5 text-center font-weight-bold"
               },
+              [
+                _c("p", { staticClass: "text-white" }, [
+                  _vm._v(
+                    "Many of the most common roofing issues can be avoided with consistent checkups and maintenance. Stopping leaks and repairing broken or missing shingles can preserve the life of your roof, which can help reduce the need for a full-on roof replacement. If you properly care for your roof, your maintenance costs will be reduced dramatically throughout the years. A complete inspection of your roof, along with a clear diagnosis of any problems and how to fix them, can give you peace of mind. At Mountain West Roofing, we believe that prevention is the best cure. Don’t allow a small problem to become a larger one due to negligence. Being proactive can extend the lifespan of your roofing structure for many years."
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-sm-12 d-md-none d-sm-block text-center" },
               [
                 _c("p", { staticClass: "text-white" }, [
                   _vm._v(
